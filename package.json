@@ -1,0 +1,32 @@
+{
+  "name": "check-in-xps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "axios": "^0.27.2",
+    "laravel-mix": "^6.0.43",
+    "laravel-mix-blade-reload": "^3.0.0",
+    "laravel-mix-tailwind": "^0.1.2",
+    "postcss": "^8.4.13",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "tailwindcss": "^3.0.24",
+    "vue-loader": "^17.0.0",
+    "vue-router": "^4.0.15"
+  },
+  "dependencies": {
+    "vue": "^3.2.33"
+  }
+}
